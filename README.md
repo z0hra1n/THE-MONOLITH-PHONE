@@ -1,2 +1,2 @@
-# THE-MONOLITH-PHONE
+# MONOLITH
 Open source high end phone.
