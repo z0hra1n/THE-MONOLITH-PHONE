@@ -22,58 +22,59 @@ The specs are pretty nuts.It has the radxa nx5 16 gb ram and 256 emms variant.An
 
 Yeah! i hope it overtakes apple!
 
-BOM:
++----+------------------------+------------------------------------------+----------------------------------------------+-----+------------+--------------+
+| #  | Source                 | Part Number                              | Description                                  | Qty | Unit Price | Ext. Price   |
++----+------------------------+------------------------------------------+----------------------------------------------+-----+------------+--------------+
+| 1  | Digi-Key               | GRM188R61E106MA73J                       | 10µF 25V X5R 0603 Capacitor                  | 10  | ₹14.619    | ₹146.19      |
+| 2  | Digi-Key               | GMC10X5R226M16NTCT                       | 22µF 16V 0603 Capacitor                      | 12  | ₹36.978    | ₹443.74      |
+| 3  | Digi-Key               | TMK107B7105KA-T                          | 1µF 25V X7R 0603 Capacitor                   | 10  | ₹5.160     | ₹51.60       |
+| 4  | Digi-Key               | GCM188R72A103KA37D                       | 10nF 100V X7R 0603 Capacitor                 | 5   | ₹9.560     | ₹47.80       |
+| 5  | Digi-Key               | GCM188R71H473KA55D                       | 47nF 50V X7R 0603 Capacitor                  | 5   | ₹20.070    | ₹100.35      |
+| 6  | Digi-Key               | CC0603ZRY5V9BB104                        | 100nF 50V Y5V 0603 Capacitor                 | 5   | ₹9.560     | ₹47.80       |
+| 7  | Digi-Key               | QSCP251Q180J1GV001T                      | 18pF 250V C0G Capacitor                      | 5   | ₹25.800    | ₹129.00      |
+| 8  | Digi-Key               | GRM188R61E475KE11D                       | 4.7µF 25V X5R 0603 Capacitor                 | 5   | ₹22.930    | ₹114.65      |
+| 9  | Digi-Key               | CRCW060310K0FKEA                         | 10kΩ 1% 0603 Resistor                        | 15  | ₹3.058     | ₹45.87       |
+| 10 | Digi-Key               | RC0603FR-0747KL                          | 47kΩ 1% 0603 Resistor                        | 5   | ₹9.560     | ₹47.80       |
+| 11 | Digi-Key               | ERJ-3EKF2553V                            | 255kΩ 1% 0603 Resistor                       | 5   | ₹9.560     | ₹47.80       |
+| 12 | Digi-Key               | RC0603JR-07180KL                         | 180kΩ 5% 0603 Resistor                       | 5   | ₹9.560     | ₹47.80       |
+| 13 | Digi-Key               | ERJ-3EKF5602V                            | 56kΩ 1% 0603 Resistor                        | 5   | ₹9.560     | ₹47.80       |
+| 14 | Digi-Key               | RC0603FR-072K2L                          | 2.2kΩ 1% 0603 Resistor                       | 10  | ₹2.389     | ₹23.89       |
+| 15 | Digi-Key               | RC0603FR-075K1L                          | 5.1kΩ 1% 0603 Resistor                       | 5   | ₹10.510    | ₹52.55       |
+| 16 | Digi-Key               | RT0603BRD0729K8L                         | 29.8kΩ 0.1% 0603 Resistor                    | 5   | ₹10.510    | ₹52.55       |
+| 17 | Digi-Key               | RC0603FR-0712KL                          | 12kΩ 1% 0603 Resistor                        | 5   | ₹9.560     | ₹47.80       |
+| 18 | Digi-Key               | ERJ-3GEYJ244V                            | 240kΩ 5% 0603 Resistor                       | 5   | ₹9.560     | ₹47.80       |
+| 19 | Digi-Key               | CRCW06031K00FKEA                         | 1kΩ 1% 0603 Resistor                         | 5   | ₹9.560     | ₹47.80       |
+| 20 | Digi-Key               | 2309407-1                                | 260-pin SODIMM Socket                        | 2   | ₹174.860   | ₹349.72      |
+| 21 | Digi-Key               | FH12-22S-0.5SH(55)                       | 22-pin FFC Connector                         | 2   | ₹245.560   | ₹491.12      |
+| 22 | Digi-Key               | 0467651301                               | Micro HDMI Receptacle                        | 2   | ₹196.830   | ₹393.66      |
+| 23 | Digi-Key               | USB4970-00-A                             | USB Type-C Receptacle                        | 2   | ₹30.580    | ₹61.16       |
+| 24 | Digi-Key               | BQ25895RTWR                              | Li-Ion Battery Charger IC                    | 2   | ₹321.050   | ₹642.10      |
+| 25 | Digi-Key               | SSM2518CPZ                               | Class-D Audio Amplifier                      | 1   | ₹717.580   | ₹717.58      |
+| 26 | Digi-Key               | SMAJ6.0CA                                | 6V TVS Diode                                 | 2   | ₹45.860    | ₹91.72       |
+| 27 | Digi-Key               | TPS61088RHLR                             | 10A Boost Converter                          | 2   | ₹261.810   | ₹523.62      |
+| 28 | Digi-Key               | TPD2EUSB30DRTR                           | USB ESD Protection                           | 5   | ₹112.750   | ₹563.75      |
+| 29 | Digi-Key               | CA-DKCA1-100L1-I0I0                      | U.FL (MHF1) Coax Cable                       | 1   | ₹204.480   | ₹204.48      |
+| 30 | Digi-Key               | USB2512B-AEZG                            | USB 2.0 2-Port Hub                           | 2   | ₹168.170   | ₹336.34      |
+| 31 | Digi-Key               | BMI270                                   | 6-Axis IMU                                   | 1   | ₹404.180   | ₹404.18      |
+| 32 | Digi-Key               | 24MHz Crystal                            | 24MHz Crystal                                | 2   | ₹49.690    | ₹99.38       |
+| 33 | Digi-Key               | SWT0005-015516SSAC                       | Tactile Push Button                          | 5   | ₹36.310    | ₹181.55      |
+| 34 | Digi-Key               | MWSA1205S-2R2MT                          | 2.2µH 15A Inductor                           | 2   | ₹140.460   | ₹280.92      |
+| 35 | Digi-Key               | 74437349010                              | 1µH 10A Inductor                             | 2   | ₹220.720   | ₹441.44      |
+| 36 | Digi-Key               | AP2112K-1.8TRG1                          | 1.8V LDO Regulator                           | 2   | ₹25.800    | ₹51.60       |
+| 37 | Digi-Key               | TLV75533PDQNR                            | 3.3V LDO Regulator                           | 2   | ₹29.620    | ₹59.24       |
+| 38 | Digi-Key               | AANI-FB-0173                             | LTE FPC Antenna                              | 1   | ₹280.920   | ₹280.92      |
+| 39 | Digi-Key               | FIT0649                                  | Micro HDMI to Mini HDMI Cable                | 1   | ₹468.200   | ₹468.20      |
+| 40 | Digi-Key               | DH-20M50055                              | USB-A to Micro USB Cable                     | 2   | ₹150.970   | ₹301.94      |
+| 41 | Digi-Key               | 10165794-Z0100YBLF                       | USB-C to USB-C Cable                         | 1   | ₹446.220   | ₹446.22      |
+| 42 | Digi-Key               | C0603C104K3RACTU                         | 100nF 25V X7R Capacitor                      | 10  | ₹6.689     | ₹66.89       |
+| 43 | Digi-Key               | 6308                                     | Heat Sink Thermal Sticker                    | 1   | ₹143.330   | ₹143.33      |
+| 44 | Digi-Key               | KAPTON-TAPE10MM                          | 10mm Kapton Tape                             | 1   | ₹278.050   | ₹278.05      |
+| 45 | Digi-Key               | B57861S0103F040                          | 10kΩ NTC Thermistor                          | ?   | ?          | ?            |
+| 46 | Arducam               | B0517                                     | 12MP IMX477P Camera                          | 1   | $59.99     | $59.99       |
+| 47 | AliExpress            | Various                                   | Battery, BLE, Connectors (4 items)           | 4   | —          | $290.47      |
+| 48 | PCB Fab               | —                                         | PCB Manufacturing + Engineering              | 1   | —          | ₹7,858.80    |
+| 49 | Amazon               | Duracell 20000mAh                          | 22.5W PD Power Bank                          | 1   | ₹3,029.00  | ₹3,029.00    |
+| 50 | Fabricator           | —                                         | CNC Aluminium Enclosure (Estimate)           | 1   | —          | $100.00      |
++----+------------------------+------------------------------------------+----------------------------------------------+-----+------------+--------------+
 
-#	Source	Part/Item	Description	Qty	Unit Price	Ext Price
-1	Digi-Key	490-12737-1-ND / GRM188R61E106MA73J	CAP CER 10UF 25V X5R 0603	10	₹14.619	₹146.19
-2	Digi-Key	4713-GMC10X5R226M16NTCT-ND	CAP 22UF 20% 16V 0603	12	₹36.978	₹443.74
-3	Digi-Key	587-2984-1-ND / TMK107B7105KA-T	CAP CER 1UF 25V X7R 0603	10	₹5.160	₹51.60
-4	Digi-Key	490-4781-1-ND / GCM188R72A103KA37D	CAP CER 10000PF 100V X7R 0603	5	₹9.560	₹47.80
-5	Digi-Key	490-4934-1-ND / GCM188R71H473KA55D	CAP CER 0.047UF 50V X7R 0603	5	₹20.070	₹100.35
-6	Digi-Key	311-1343-1-ND / CC0603ZRY5V9BB104	CAP CER 0.1UF 50V Y5V 0603	5	₹9.560	₹47.80
-7	Digi-Key	712-QSCP251Q180J1GV001TCT-ND	CAP CER 18PF 250V C0G 0603	5	₹25.800	₹129.00
-8	Digi-Key	490-7203-1-ND / GRM188R61E475KE11D	CAP CER 4.7UF 25V X5R 0603	5	₹22.930	₹114.65
-9	Digi-Key	541-10.0KHCT-ND / CRCW060310K0FKEA	RES 10K 1% 1/8W 0603	15	₹3.058	₹45.87
-10	Digi-Key	311-47.0KHRCT-ND / RC0603FR-0747KL	RES 47K 1% 1/10W 0603	5	₹9.560	₹47.80
-11	Digi-Key	P255KHCT-ND / ERJ-3EKF2553V	RES 255K 1% 1/10W 0603	5	₹9.560	₹47.80
-12	Digi-Key	311-180KGRCT-ND / RC0603JR-07180KL	RES 180K 5% 1/10W 0603	5	₹9.560	₹47.80
-13	Digi-Key	P56.0KHCT-ND / ERJ-3EKF5602V	RES 56K 1% 1/10W 0603	5	₹9.560	₹47.80
-14	Digi-Key	311-2.20KHRCT-ND / RC0603FR-072K2L	RES 2.2K 1% 1/10W 0603	10	₹2.389	₹23.89
-15	Digi-Key	311-5.10KHRCT-ND / RC0603FR-075K1L	RES 5.1K 1% 1/10W 0603	5	₹10.510	₹52.55
-16	Digi-Key	13-RT0603BRD0729K8LCT-ND	RES 29.8K 0.1% 1/10W 0603	5	₹10.510	₹52.55
-17	Digi-Key	311-12.0KHRCT-ND / RC0603FR-0712KL	RES 12K 1% 1/10W 0603	5	₹9.560	₹47.80
-18	Digi-Key	P240KGCT-ND / ERJ-3GEYJ244V	RES 240K 5% 1/10W 0603	5	₹9.560	₹47.80
-19	Digi-Key	541-1.00KHCT-ND / CRCW06031K00FKEA	RES 1K 1% 1/8W 0603	5	₹9.560	₹47.80
-20	Digi-Key	A126758CT-ND / 2309407-1	CONN SKT SODIMM 260POS SMD	2	₹174.860	₹349.72
-21	Digi-Key	HFJ122CT-ND / FH12-22S-0.5SH(55)	CONN FFC 22POS 0.5MM R/A	2	₹245.560	₹491.12
-22	Digi-Key	WM11255CT-ND / 0467651301	CONN RCP MICRO HDMI 19POS SMD RA	2	₹196.830	₹393.66
-23	Digi-Key	2073-USB4970-00-ACT-ND	USB TYPE C 6P RECEPTACLE	2	₹30.580	₹61.16
-24	Digi-Key	296-44345-1-ND / BQ25895RTWR	IC BATT CHG LI-ION 24WQFN	2	₹321.050	₹642.10
-25	Digi-Key	505-SSM2518CPZ-ND	IC AUDIO AMP D 20-LFCSP	1	₹717.580	₹717.58
-26	Digi-Key	SMAJ6.0CALFCT-ND	TVS DIODE 6VWM DO214AC	2	₹45.860	₹91.72
-27	Digi-Key	296-43620-1-ND / TPS61088RHLR	IC REG BOOST ADJ 10A 20VQFN	2	₹261.810	₹523.62
-28	Digi-Key	296-25509-1-ND / TPD2EUSB30DRTR	TVS DIODE 5.5VWM SOT3	5	₹112.750	₹563.75
-29	Digi-Key	2057-CA-DKCA1-100L1-I0I0-ND	COAX CBL U.FL-MHF1 to U.FL-MHF1	1	₹204.480	₹204.48
-30	Digi-Key	638-1103-ND / USB2512B-AEZG	IC USB 2.0 2PORT HUB 36QFN	2	₹168.170	₹336.34
-31	Digi-Key	828-1091-1-ND / BMI270	IMU ACCEL/GYRO 14LGA	1	₹404.180	₹404.18
-32	Digi-Key	535-10643-1-ND	CRYSTAL 24MHz 18pF SMD	2	₹49.690	₹99.38
-33	Digi-Key	2073-SWT0005-015516SSACT-ND	TACTILE SWITCH SPST-NO	5	₹36.310	₹181.55
-34	Digi-Key	3442-MWSA1205S-2R2MTCT-ND	FIXED IND 2.2uH 15A SMD	2	₹140.460	₹280.92
-35	Digi-Key	732-3349-1-ND / 74437349010	FIXED IND 1uH 10A SMD	2	₹220.720	₹441.44
-36	Digi-Key	AP2112K-1.8TRG1DICT-ND	IC REG LINEAR 1.8V 600mA SOT-25	2	₹25.800	₹51.60
-37	Digi-Key	296-51806-1-ND / TLV75533PDQNR	IC REG LINEAR 3.3V 500mA X2SON	2	₹29.620	₹59.24
-38	Digi-Key	535-AANI-FB-0173-1-ND	FPC ANTENNA LTE 4G/3G/2G	1	₹280.920	₹280.92
-39	Digi-Key	1738-FIT0649-ND	CBL Micro HDMI-Mini HDMI 2.62'	1	₹468.200	₹468.20
-40	Digi-Key	2987-DH-20M50055-ND	CBL USB AM-Micro, 1m	2	₹150.970	₹301.94
-41	Digi-Key	609-10165794-Z0100YBLF-ND	CBL USB C-C	1	₹446.220	₹446.22
-42	Digi-Key	399-C0603C104K3RACTUCT-ND	CAP CER 0.1UF 25V X7R 0603	10	₹6.689	₹66.89
-43	Digi-Key	1528-6308-ND	HEAT SINK THERMAL STICKER TABS	1	₹143.330	₹143.33
-44	Digi-Key	1188-KAPTON-TAPE10MM-ND	TAPE MASKING KAPTON	1	₹278.050	₹278.05
-45	Digi-Key	495-2142-ND / B57861S0103F040	THERMISTOR NTC 10K 3988K BEAD	?	?	? (qty/price cut off)
-46	Arducam	B0517	12MP IMX477P Camera Module for ROCK 5A/5B	1	$59.99	$59.99
-47	AliExpress cart	(4 items — battery, BLE module, connectors)	Misc components, "almost sold out" cart	4	—	$290.47
-48	PCB Fab	Board Fee + Engineering	PCB manufacture + assembly, 230g	1	—	₹7,858.80
-49	Amazon	Duracell 20000mAh Powerbank	1 Type-C PD + 2 USB-A, 22.5W	1	₹3,029.00
-50	Enclosure fabricator	CNC aluminium enclosure (estimate only, pending final model)	1	—	$100.00 (est.)	
-
-Total ~ 666 usd.
+Estimated Total Project Cost ≈ $666 USD
