@@ -70,7 +70,7 @@ Yeah! i hope it overtakes apple!
 | Additional Decoupling | 100nF X7R Capacitor | 10 | ₹66.89 | Digi-Key | C0603C104K3RACTU |
 | Thermal Management | Heat Sink Thermal Sticker | 1 | ₹143.33 | Digi-Key | 6308 |
 | Assembly | Kapton Tape (10mm) | 1 | ₹278.05 | Digi-Key | KAPTON-TAPE10MM |
-| Temperature Monitoring | 10kΩ NTC Thermistor | TBD | TBD | Digi-Key | B57861S0103F040 |
+| Temperature Monitoring | 10kΩ NTC Thermistor | 2 | ₹188.23 | Digi-Key | B57861S0103F040 |
 | Camera | 12MP IMX477P Camera Module | 1 | $59.99 | Arducam | B0517 |
 | Miscellaneous | Batteries, BLE Module, Connectors | 4 | $290.47 | AliExpress | Various |
 | PCB Manufacturing | PCB Fabrication + Engineering | 1 | ₹7,858.80 | PCB Fab | — |
