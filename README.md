@@ -72,7 +72,7 @@ Yeah! i hope it overtakes apple!
 | Temperature Monitoring | 10kΩ NTC Thermistor | 2 | $1.88 | Digi-Key | B57861S0103F040 |
 | Camera | 12MP IMX477P Camera Module | 1 | $59.99 | Arducam | B0517 |
 | Miscellaneous | Batteries, BLE Module, Connectors | 4 | $290.47 | AliExpress | Various |
-| PCB Manufacturing | PCB Fabrication + Engineering | 1 | $115.45 | PCB Fab | — |
+| PCB Manufacturing | PCB Fabrication + Engineering | 1 | $72.96 | PCB Fab | — |
 | Portable Power | 20,000mAh Power Bank | 1 | $30.29 | Amazon | Duracell |
 | Enclosure | CNC Aluminium Enclosure (Estimate) | 1 | $100.00 | Local Fabricator | — |
-| **TOTAL** | | | **$692.30** | | |
+| **TOTAL** | | | **$649.81** | | |
