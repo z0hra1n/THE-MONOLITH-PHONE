@@ -1,5 +1,6 @@
 # MONOLITH
-<img width="2000" height="2000" alt="MONOLITH  (1)" src="https://github.com/user-attachments/assets/a57141d0-c331-43c9-a943-bfd9e5269df6" />
+<img width="2000" height="2000" alt="39aYV1786631642" src="https://github.com/user-attachments/assets/bf8643f1-931e-4782-ad41-03fda12ccbde" />
+
 
 Ahh, i finally get to yap about it.
 This is MONOLITH. a phone, a brick , a portable computer, but most importantly, a MONOLITH.
