@@ -1,5 +1,5 @@
 # MONOLITH
-<img width="2000" height="2000" alt="39aYV1786631642" src="https://github.com/user-attachments/assets/bf8643f1-931e-4782-ad41-03fda12ccbde" />
+<img width="507" height="830" alt="bVXsz1786632561" src="https://github.com/user-attachments/assets/3b994ec8-b24f-41e9-99c7-1556221cc02a" />
 
 
 Ahh, i finally get to yap about it.
